@@ -1,0 +1,89 @@
+.form {
+    display: flex;
+    height: 780px;
+}
+
+.form_filter {
+    width: 20%;
+    margin-right: 5px;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 6px;
+}
+
+.form_title {
+    text-align: center;
+}
+
+.form_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_radio_btn{
+	display: inline-block;
+    margin: 5px;
+	cursor: pointer;
+	padding: 0px 15px;
+	line-height: 34px;
+	border: 1px solid #999;
+	border-radius: 6px;
+	user-select: none;
+    width: 100px;
+    text-align: center;
+}
+ 
+/* Checked */
+.form_radio_btn:focus{
+	background-color: #ffe0a6;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 6px;
+    width: 80%;
+    overflow-y: scroll;
+    
+}
+
+.content_cart {
+    width: 300px;
+    max-height: 320px;
+    border: 2px solid #bbb8b8;
+    border-radius: 6px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 70px;
+    overflow: hidden;
+}
+
+.content_cart_img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 200px;
+}
+
+.content_cart_wrapper {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content_cart_price {
+    font-size: 18px;
+}
+
+.content_cart_button {
+    height: 40px;
+    width: 120px;
+    font-size: 14px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

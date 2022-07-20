@@ -1,0 +1,135 @@
+form {
+    height: 800px;
+}
+
+.main_wrapper {
+    display: flex;
+    height: 600px;
+    width: auto;
+}
+
+.contacts_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 5px;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 6px;
+    justify-content: center;
+}
+
+.contacts_block {
+    margin: 30px;
+}
+
+.contacts_text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contacts_input {  
+    display: block;
+    height: 30px;
+    width: 350px;
+    border: 2px solid rgb(168, 168, 168);
+    border-radius: 6px;  
+    font-size: 16px; 
+    margin-top: 10px;
+}
+
+.list_order {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 6px;
+    overflow-y: scroll;
+}
+
+.list_order_cart {
+    display: flex;
+    min-height: 200px;
+    border: 2px solid #bbb8b8;
+    border-radius: 6px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.list_order_img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 200px;
+}
+
+.list_order_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.list_order_title, .list_order_price {
+    text-align: end;
+    margin-bottom: 10px;
+}
+
+.list_order_input {
+    margin: 15px 5px 0 5px;
+    width: 50px;
+    height: 25px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.list_order_button_quantity {
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 18px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.list_order_button {
+    height: 30px;
+    width: 80px;
+    font-size: 14px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.footer_wrapper {
+    display: flex;
+    height: 180px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer_total{
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.footer_buuton{
+    height: 60px;
+    width: 160px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}

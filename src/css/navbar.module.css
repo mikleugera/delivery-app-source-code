@@ -1,0 +1,9 @@
+.nav {
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.link{
+    padding: 10px 10px;
+}
