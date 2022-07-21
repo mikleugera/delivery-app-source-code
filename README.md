@@ -14,6 +14,8 @@
 
 # Демо
 
+[LIVE](https://app-delivery-test.herokuapp.com)
+
 вибираємо товар
 ![](img/screenshot1.png)
 
