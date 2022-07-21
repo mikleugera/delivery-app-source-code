@@ -1,6 +1,6 @@
 # Доставка їжі на REACT + NODE.JS + SQLITE
 
-![](/img/1.jpeg)
+![](img/1.png)
 
 
 
