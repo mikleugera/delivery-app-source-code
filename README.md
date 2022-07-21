@@ -14,23 +14,25 @@
 
 # Демо
 
+
+
 # технології в проєкті
 
 axios, react, redux, nodejs, sqlite
 
 # запуск
 
+Перед запуском потрібно встановити npm і nodejs
+
 Зробіть клон проєкту
-
-
 ```
-git clone 
+git clone https://github.com/mikleugera/delivery-app-source-code.git 
 ```
 
-У цьому ж каталозі інсталюй виконайте наступні команди:
-
+У цьому ж каталозі виконайте наступні команди:
 ```
 $ npm install
+$ npm server
 $ npm start
 ```
 
